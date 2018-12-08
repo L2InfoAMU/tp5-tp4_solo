@@ -12,3 +12,4 @@ On va considérer quatre manières de représenter une image en couleur et donc 
 ## Membre du projet
 
 - CAUET, Nicolas, Groupe 3
+- ELAMINE, Raïd, Groupe 3
