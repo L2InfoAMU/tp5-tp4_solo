@@ -19,14 +19,14 @@ public  class BruteRasterImage implements Image {
     public BruteRasterImage(Color[][] colors) {
         Matrices.requiresNonZeroDimensions(colors);
         Matrices.requiresNonNull(colors);
-        setWidth(colors.length);
-        setHeight(colors[0].length);
+        setHeight(colors.length);
+        setWidth(colors[0].length);
         createRepresentation();
         this.colors = colors;
     }
 
     public void createRepresentation() {
-        colors = new Color[getWidth()][getHeight()];
+        colors = new Color[getHeight()][getWidth()];
     }
 
     public void setPixelColor(Color color, int x, int y) {
